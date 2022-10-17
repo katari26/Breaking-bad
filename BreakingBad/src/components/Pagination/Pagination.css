@@ -1,0 +1,40 @@
+.page-main-container{
+    display: flex;
+    justify-content: center;
+}
+.page-container{
+    padding: 0 0 20px 0;
+}
+.page-main-container div{
+    background-color: #5E5E5E;
+    color: white;
+    margin: 0 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.page-main-container button {
+    margin: 0 30px;
+    cursor: pointer;
+    padding: 0 10px;
+    background-color: #5E5E5E;
+    color: white;
+    border-radius: 5px;
+}
+.page-main-container button:hover{
+    background-color: #00A97F;
+}
+
+@media only screen and (max-width: 550px){
+    .page-main-container div{
+        margin: 3px;
+    }
+    .page-main-container button{
+        margin: 3px;
+    }
+}
